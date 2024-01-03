@@ -5,7 +5,7 @@ plugins {
     `maven-publish`
 }
 
-group = "nizi.org"
+group = "app.renanced"
 
 repositories {
     mavenCentral()
@@ -32,12 +32,12 @@ kotlin {
 
 tasks.withType(Jar::class) {
     manifest {
-        attributes["Name"] = "Your Patches"
-        attributes["Description"] = "Patches for ReVanced."
+        attributes["Name"] = "Nizi Patches"
+        attributes["Description"] = "Patches for ReNanced."
         attributes["Version"] = version
         attributes["Timestamp"] = System.currentTimeMillis().toString()
-        attributes["Source"] = "git@github.com:you/revanced-patches.git"
-        attributes["Author"] = "You"
+        attributes["Source"] = "git@github.com:Pamilg8/nizi-patches.git"
+        attributes["Author"] = "Pamilg8"
         attributes["Contact"] = "contact@your.homepage"
         attributes["Origin"] = "https://your.homepage"
         attributes["License"] = "GNU General Public License v3.0"
